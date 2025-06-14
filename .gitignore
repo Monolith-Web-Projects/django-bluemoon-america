@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pdb
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+.env
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+.Python
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Pytest
+.pytest_cache/
+coverage/
+htmlcov/
+*.cover
+*.py,cover
+.cache
+
+# Secret & Configs
+*.env
+
+# Migrations (optional - only if auto-generated and not tracked)
+# **Be careful if you want to keep them under version control**
+# */migrations/*.py
+# */migrations/*.pyc
