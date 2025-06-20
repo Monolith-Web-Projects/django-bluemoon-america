@@ -11,7 +11,10 @@ import json
 
 @ensure_csrf_cookie
 def get_csrf_token(request):
-    return JsonResponse({'detail': 'CSRF cookie set'})
+    return JsonResponse({
+        "detail": "CSRF cookie set",
+        "csrfToken": request.META.get("CSRF_COOKIE")
+    })
 
 
 # @csrf_exempt
